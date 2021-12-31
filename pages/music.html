@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+	<meta charset=utf-8>
+	<meta name="robots" content="all">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/indexstyle.css">
+	<title>Title</title>
+	<script src="../scripts/script.js"></script>
+	<script>
+			
+			/* Set the width of the side navigation to 250px */
+	function openNav() {
+  	document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+  	document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+</head>
+
+<body>
+	
+
+
+	<!--Navigation bar-->
+
+	<button type="button" onclick="openNav()" class="button">Navigation</button>
+
+<div id="mySidenav" class="sidenav">	
+	<a href="pages/music.html">Music</a>
+	<a href="pages/portfolio.html">Portfolio</a>
+	<a href="pages/writing.html">Writing</a>
+	<a href="pages/gaming.html">Gaming</a>
+	<a href="pages/coding.html">Coding</a>
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+
+
+<div class="whiteblock">
+	<p>
+		Instruments I practice:
+	</p>
+</div>
+<div class="flex-container">
+	<img src="../image/accordeon.jpg">
+	<img src="../image/piano.jpg">
+</div>
+
+    
+	<footer>
+		<p><small>Footer</a>.</small></p>
+	</footer>
+
+</body>
+
+</html>

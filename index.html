@@ -1,1 +1,77 @@
-Hello World
+<!doctype html>
+<html lang=en>
+
+<head>
+	<meta charset=utf-8>
+	<meta name="robots" content="all">
+	<link rel="stylesheet" type="text/css" href="stylesheet/indexstyle.css">
+	<title>About</title>
+	
+<script>
+	
+			/* Set the width of the side navigation to 250px */
+	function openNav() {
+  	document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+  	document.getElementById("mySidenav").style.width = "0";
+	}
+
+</script>
+</head>
+
+<body>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Open navigation bar button-->
+
+<button type="button" onclick="openNav()" class="button">Navigation</button>
+
+<!--Navigation bar content-->
+
+<div id="mySidenav" class="sidenav">	
+	<a href="pages/music.html">Music</a>
+	<a href="pages/portfolio.html">Portfolio</a>
+	<a href="pages/writing.html">Writing</a>
+	<a href="pages/gaming.html">Gaming</a>
+	<a href="pages/coding.html">Coding</a>
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+
+<!-- Main page-->
+
+<div class="center">
+	<div class="whiteblock">
+		<p>Hi, my name's Emiel, pleased to meet ya! <br> </p>
+	</div>
+	<div class="whiteblock">
+		<p>I've had many hobbies throughout my life, which include, but are not limited to reading and writing books, watching anime, playing many different kinds of music on both the piano and accordeon and spending time with my lovely family.</p>
+	</div>
+	<div class="whiteblock">
+		<p>I also love food a lot, perhaps a little too much at times<br><br></p>
+	<!--Intoductory image-->
+		<div>
+			<img class="introimage" src="image/nomnom.jpg" alt="Introduction image 1">
+		</div>
+	</div>
+	<div class="whiteblock">
+		<!--Socials-->
+		<a href="https://www.youtube.com/channel/UC3fPiHNTEsnG-nht-iSDXqQ" class="fa fa-youtube"></a>
+		<a href="https://twitter.com/SelphisUwU" class="fa fa-twitter"></a>
+	</div>
+</div>
+
+
+
+
+<footer>
+	<p><small>Many thanks to my friends, family, and others who have supported me throughout the years.</a></small></p>
+</footer>
+
+</body>
+
+</html>

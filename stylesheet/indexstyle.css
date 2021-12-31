@@ -1,0 +1,147 @@
+/* fonts */
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cutewrittenregular';
+    src: url('cutewritten-regular-webfont.woff2') format('woff2'),
+         url('cutewritten-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Set main font */
+*{
+    font-family: 'montserratregular', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: azure;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: plum;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    font-size: 60px;
+    margin-left: 20px;
+  }
+
+  /* Navigation button */
+  .button{
+    position: fixed;
+    z-index: 10;
+    display: block;
+    border: none;
+    color: plum;
+    background-color: azure;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 0;
+    top: 0;
+  }
+  .button:hover{
+      color:pink;
+      filter:opacity(90%)
+  }
+
+
+/* General css */
+body{
+    background-image:url("../image/indexbackground.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 30;
+    font-weight: 200;
+    font-style: normal;
+    color:plum;
+    padding:2px;
+}
+footer{
+    display: block;
+    background-color: white;
+    padding: 14px;
+    bottom: 0;
+    margin-top: 20%;
+}
+.flex-container{
+    display:flex;
+}
+.center{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* introduction text */
+.whiteblock {
+    background-color: azure;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 24px;
+    color: plum;
+}
+.introimage{
+    width: 24em;
+    height: 32em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Youtube */
+.fa-youtube {
+    background: red;
+    color: white;
+  }
+
+
